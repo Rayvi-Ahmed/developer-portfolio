@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header & Navbar Style */
+.head-container {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color:
+        #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 35px;
+    border: 0;
+    border-radius: 7px;
+}
+
+.btn-primary-contact {
+    background-color: rgb(239, 194, 178);
+    color: #4e4b4b;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 14px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+.btn-primary:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Banner Design */
+.banner {
+    display: flex;
+    margin: 0 150px;
+    align-items: center;
+}
+
+.my-title {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.name-title {
+    color: black;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 7px;
+}
+
+.title-description {
+    color: #3b3939;
+    margin-bottom: 7px;
+
+}
+
+/* Main Area design Start */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about {
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 130px;
+    padding: 130px 150px;
+    border-radius: 20px;
+}
+
+.about-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    text-align: center;
+    color: #757575;
+
+
+}
+
+/* Start Information design */
+
+.infromation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.Email {
+    background-color: rgb(215, 150, 126);
+    border: 3px solid rgba(202, 74, 28, 0.776);
+    padding: 10px 15px;
+}
+
+.Email:hover {
+    background-color: #FD6E0A;
+}
+
+/* Start What i do design */
+.WID {
+    margin-top: 30px;
+    padding: 130px 150px;
+}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.doing-des {
+    color: #757575;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+/* Start Skill portion design */
+.skils {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.my-skills {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 19px;
+    width: 247px;
+    padding: 30px 34px;
+    box-shadow: 2px 5px 3px 3px #d7d4d4;
+    row-gap: 8px;
+
+
+
+}
+
+.my-skills h3 {
+    margin-bottom: 6px;
+}
+
+
+.my-skills p {
+    color: #757575;
+}
+
+.my-skills img {
+    margin-bottom: 10px;
+}
+
+/* Start Resumme part design */
+.resume-title {
+    margin-top: 30px;
+    padding: 130px 150px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+/* Start bio data design */
+.biodata-portion {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.bio-title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #3b3939;
+
+}
+
+.graduation {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #757575;
+
+
+}
+
+.bio-details {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    color: #757575;
+}
+
+.institution {
+    color: #757575;
+}
+
+.btn-download {
+    padding: 30px 150px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 140px;
+}
+
+.contact-des {
+    color: #3b3939;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.massege {
+    align-items: center;
+}
+
+.text-form input {
+    border: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 70px;
+}
